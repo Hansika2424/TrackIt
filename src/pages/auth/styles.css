@@ -1,0 +1,67 @@
+/* Login Page Styling - Consistent with Expense Tracker */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #1f1f1f;
+}
+
+.login-container {
+  background-color: #2b2b2b;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  color: #eaeaea;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #00e676;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.sub-heading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #cccccc;
+  margin-bottom: 1.5rem;
+}
+
+.info-text {
+  font-size: 1rem;
+  color: #dddddd;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.login-with-google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: #3c3f41; /* Matches dark theme */
+  border: 1px solid #555;
+  padding: 0.8rem 1.2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.login-with-google-btn:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
